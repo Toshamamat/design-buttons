@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  background: white;
+}
+.btn {
+  color: coral;
+  border: none;
+  height: 10vh;
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-primary {
+  background: blue;
+  height: 5vh;
+}
+.btn-success {
+  background: orange;
+  border-radius: 30px;
+  height: 50px;
+}
+.btn-danger {
+  background: green;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  letter-spacing: 2px;
+}
+.btn-warning {
+  background: red;
+  font-weight: 800;
+}
+.btn-error {
+  background: pink;
+  width: 100px;
+}
